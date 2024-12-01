@@ -39,13 +39,11 @@ CMD ["python", "app.py"]
 
 il est important d'installer docker pour windows enfin de pemettre a notre image concu de 
 application de tourner. 
-une fois installer docker sur windows, faut lancer docker et ce rendre dans le termimal : 
-saisir la command : build -t python-joke-fetcheur .
-2. docker run --rm python-joke-fetcheur
-
-si tous ce passe bien alors, une blague apparaitra sur le terminal comme dans la capture d'ecran. 
-
-il est important de decoucher option wsl et aussi d'activer hyper-v sur notre machine. 
+Il est crucial d’installer Docker pour Windows afin de permettre à notre application encapsulée dans une image Docker de s’exécuter correctement.
+Une fois Docker installé sur Windows, lancez l'application Docker, ouvrez un terminal, puis exécutez la commande suivante : docker build -t python-joke-fetcheur.
+Ensuite la commande : docker run --rm python-joke-fetcheur
+Si tout se déroule correctement une blague aléatoire s'affichera dans le terminal comme illustré dans la capture d'écran.
+il est important de decoucher l'option wsl et aussi d'activer hyper-v sur notre machine. 
 
 
 
